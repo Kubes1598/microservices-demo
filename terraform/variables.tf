@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-variable "gcp_project_id" {
+variable "gcp_project_id" { #you dont need to change "gcp_project_id" to your actual project id
   type        = string
   description = "The GCP project ID to apply this config to"
 }
